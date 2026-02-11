@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Singh | Cybersecurity Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: #00ff88;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid #00ff88;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00ff88;
+            margin-bottom: 20px;
+        }
+        h1 { font-size: 2.5rem; }
+        h2 {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #00ff88;
+            padding-bottom: 5px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            list-style: none;
+            gap: 10px;
+        }
+        .skills li {
+            background: #111;
+            padding: 10px;
+            border: 1px solid #00ff88;
+            text-align: center;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #111;
+            border: 1px solid #00ff88;
+        }
+        a {
+            color: #00ff88;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #00ff88;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Sachin Singh">
+    <h1>Sachin Singh</h1>
+    <p>Cybersecurity Enthusiast | Aspiring Ethical Hacker | B.Tech CSE</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student passionate about cybersecurity and ethical hacking. I actively practice networking, Linux, and vulnerability assessment. My goal is to build strong penetration testing skills and contribute to secure digital systems.
+    </p>
+</section>
+
+<section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>C / C++</li>
+        <li>Java</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Linux</li>
+        <li>Wireshark</li>
+        <li>Nmap</li>
+        <li>Networking Basics</li>
+        <li>Input Validation</li>
+        <li>Log Monitoring</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Web-Based Intrusion Detection System</h3>
+        <p>
+            Developed a prototype security monitoring system to detect suspicious activities using input validation, session analysis, and anomaly detection techniques.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>FoodEase – Food Delivery Website</h3>
+        <p>
+            Built a responsive multi-page food delivery website with cart simulation and dynamic pricing using HTML, CSS, and JavaScript.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sachinsingh1098@gmail.com">sachinsingh1098@gmail.com</a></p>
+    <p>Phone: +91 8005680106</p>
+    <p>GitHub: <a href="https://github.com/SachinShekhawat7" target="_blank">github.com/SachinShekhawat7</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sachin-singh-shekhawat/" target="_blank">linkedin.com/in/sachin-singh-shekhawat</a></p>
+</section>
+
+<footer>
+    © 2026 Sachin Singh | Built with a Hacker Mindset
+</footer>
+
+</body>
+</html>
